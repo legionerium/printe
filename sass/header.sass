@@ -1,0 +1,178 @@
+header, footer
+	margin-top: 17px
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05)
+	color: #3A4047
+	.container
+		display: flex
+		justify-content: space-between
+		.logo
+			text-decoration: none
+			display: flex
+			img
+				margin-right: 5px
+				align-self: baseline
+			.logo-text
+				.logo-main-text
+					font-family: 'Proxima Nova Cn Bl'
+					font-size: 48px
+					color: #1AB0CE
+					margin-top: 6px
+					letter-spacing: 4px
+				.logo-sub-text
+					font-family: Proxima Nova Rg;
+					font-size: 15px
+					font-weight: bold
+					letter-spacing: 0.5px
+					line-height: 8px
+					color: #3A4047
+		.slogan-time
+			text-align: center
+			p
+				&:first-child
+					line-height: 22px
+				&:last-child
+					font-weight: bold
+					font-size: 14px
+					line-height: 37px
+					margin-right: 14px
+		.contacts
+			margin-right: -70px
+			margin-top: 10px
+			text-align: right
+			.cabinet-email
+				display: flex
+				font-size: 14px
+				a
+					color: #3A4047
+				.cabinet
+					position: relative
+					margin-right: 78px
+					&:before
+						content: ""
+						background: url("../img/icon/user.png") no-repeat center center
+						position: absolute
+						top: 0
+						left: -20px
+						height: 13px
+						width: 11.5px
+				.email
+			.call
+				line-height: 63px
+				position: relative
+				.soc-facebook
+					margin-right: 51px
+					position: relative
+					img
+						position: absolute
+						top: 1px
+						bottom: 0
+						left: -14px
+						right: 0
+				.phone
+					position: relative
+					color: #3A4047
+					font-weight: bold
+					margin-right: 24px
+					font-size: 17px
+					letter-spacing: -0.5px
+					&:before
+						content: ""
+						background: url("../img/icon/phone.png") no-repeat center center
+						position: absolute
+						top: 4px
+						left: -30px
+						height: 20px
+						width: 20px
+				.show-more
+					position: absolute
+					top: 22px
+					right: -2px
+					&:hover
+						cursor: pointer
+		.card
+			position: relative
+			align-self: center
+			margin-right: -7px
+			&:hover
+				cursor: pointer
+			span
+				position: absolute
+				top: -5px
+				right: -19px
+				width: 30px
+				height: 30px
+				background-color: #1AB0CE
+				border-radius: 50%
+				text-align: center
+				color: #fff
+				line-height: 26px
+				font-weight: bold
+				font-size: 14px
+nav
+	.container
+		ul
+			display: flex
+			justify-content: space-between
+			li
+				padding-top: 17px
+				padding-bottom: 18px
+				transition: all 0.2s ease
+				border-color: #1AB0CE
+				&:hover
+					border-top: 1px solid #1AB0CE
+				a
+					text-decoration: none
+					color: #3A4047
+					text-transform: uppercase
+					transition: all 0.2s ease
+					&:hover
+						color: #1AB0CE
+				img
+					&:hover
+						cursor: pointer
+.hide
+	position: absolute
+	width: 161px
+	right: -12px
+	display: none
+	flex-direction: column
+	background-color: #fff
+	padding: 28px
+	padding-top: 25px
+	align-items: normal
+	line-height: 1
+	line-height: 2.4
+	box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.15)
+	&:after
+		content: ""
+		position: absolute
+		top: -7px
+		right: 6px
+		width: 28px
+		height: 28px
+		background-color: #fff
+		transform: rotate(-45deg)
+	a
+		text-decoration: none
+		color: #3A4047
+		font-size: 17px
+		position: relative
+		letter-spacing: -0.5px
+		padding-left: 35px
+		&:before
+			content: ""
+			position: absolute
+			background-size: cover
+			top: 8px
+			left: 0
+			width: 25px
+			height: 25px
+	.phone-vodafone
+		&:before
+			background: url("../img/icon/vodaphone.png") no-repeat center center
+	.phone-kyivstar
+		&:before
+			background: url("../img/icon/kyivstar.png") no-repeat center center
+	.phone-lifecell
+		&:before
+			background: url("../img/icon/lifecell.png") no-repeat center center
